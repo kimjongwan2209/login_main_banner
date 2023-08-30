@@ -1,13 +1,19 @@
 import React from "react";
 import "./Main.css";
+import { useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="container">
-      <div className="main">
+    <div className="main_container">
+      <div className="user_join_main">
         <div className="main_header">
           <button className="move_button">
-            <span className="button_text"> 〈 뒤로 </span>
+            <span className="button_text" onClick={() => navigate("/")}>
+              {" "}
+              〈 뒤로{" "}
+            </span>
           </button>
         </div>
 

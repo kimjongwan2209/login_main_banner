@@ -3,13 +3,13 @@
     margin: 0px;
 }
 
-.container{
+.login_container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.main{
+.login_main{
   width: 576px;
   height: 844px;
   border: 2px solid #E5E5E5;
@@ -17,7 +17,7 @@
   margin-top: 35px;
 }
 
-.main_head{
+.login_main_head{
   width: 100%;
   height: 555px;
   display: flex;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.main_body{
+.login_main_body{
   width: 100%;
   height: 225px;
   margin-top: 15px;
@@ -35,12 +35,12 @@
   justify-content: space-between;
 }
 
-.input_box{
+.login_input_box{
   margin-left: 24px;
   margin-right: 24px;
 }
 
-.input_text_box{
+.login_input_text_box{
   width: 100%;
   height: 56px;
   font-size: 16px;
@@ -49,7 +49,7 @@
   padding-left: 23px;
 }
 
-.button{
+.login_button{
   width: 100%;
   height: 56px;
   border: none;
@@ -61,36 +61,40 @@
   font-weight: 650;
 }
 
-.button:hover{
+.login_button:hover{
   cursor: pointer;
+  /* border: 2px solid black;
+  background-color: white;
+  color: #2D71F7; */
 }
 
-.button:active{
+.login_button:active{
   border: 2px solid black;
   background-color: white;
   color: #2D71F7;
 }
 
-.bottom_button{
+.login_bottom_button{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-left: 59px;
   padding-right: 59px;
+  border: none;
 }
 
-.user_sign_button{
+.login_user_sign_button{
   font-size: 13px;
   font-weight: medium;
   border: 0;
   background-color: transparent;
 }
 
-.user_sign_button:hover{
+.login_user_sign_button:hover{
   cursor: pointer;
 }
 
-.user_sign_button:active{
+.login_user_sign_button:active{
   font-weight: bold;
   color: #2D71F7;
   text-shadow: #E0E0E0;
